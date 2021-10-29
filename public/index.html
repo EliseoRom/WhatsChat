@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+	integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>WhatsChat</title>
+</head>
+<body>
+    <div class="join-container">
+        <header class="join-header">
+            <h1> WhatsChat</h1>
+            
+        </header>
+        <main class="join-main">
+            <form action="chat.html">
+                <div class="form-control">
+                    <label for="username">Users</label>
+                    <input type="text" name="username" id="username" placeholder="Enter a nickname..." required>
+                </div>
+                <div class="form-control">
+                    <label from="room">Room</label>
+                    <select name="room" id="room">
+                        <option value="Random">Random</option>
+                        <option value="Game">Game</option>
+                        <option value="Full Stack">Full Stack</option>
+                        <option value="Pub">Pub</option>
+                        <option value="Relax room">Relax room</option>
+                        <option value="Love room">Love room</option>
+                        <option value="Waiting room">Waiting room</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Join the chat</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
